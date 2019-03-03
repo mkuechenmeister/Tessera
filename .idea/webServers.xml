@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a3f086f3-0ffc-47fe-8bc1-2c4938a87fb7" name="Lamp@proxmox@homelab" url="http://10.0.0.201/tessera">
+        <fileTransfer host="10.0.0.201" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e859b371-45f6-4a7b-9c56-ec50b45e35d0" name="lamp.tessera@DigitalOcean" url="http://46.101.164.43">
+        <fileTransfer host="46.101.164.43" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

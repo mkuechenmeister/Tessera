@@ -1,0 +1,53 @@
+.btn-green{
+    background-color: #1e7e34;
+    color: white;
+}
+
+.btn-green:hover{
+    background-color: #34ce57;
+}
+
+.btn-primary{
+
+    background-color: #2A3591;
+    border: none;
+}
+
+.tessera-blue{
+
+    background-color: #2A3591;
+    color:#2A3591 ;
+}
+
+.btn-primary:hover{
+    //background-color: #191463;
+    background-color: #3844c2;
+    border: none;
+}
+
+.featherRed{
+    color: red;
+}
+
+.featherGreen{
+    color: #1c7430;
+}
+
+.featherSmall{
+    width: 1rem;
+    height: 1rem;
+}
+
+.featherMedium{
+    width: 2rem;
+    height: 2rem;
+}
+
+.featherLarge{
+    width: 3rem;
+    height: 3rem;
+}
+
+.featherBold{
+    font-weight: bold;
+}
